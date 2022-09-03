@@ -31,7 +31,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: wangxinji/nus_iss_design4 :1.0
+        tags: wangxinji/nus_iss_design4:1.0
 
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
