@@ -47,7 +47,7 @@ jobs:
                 "type": "section",
                 "text": {
                   "type": "mrkdwn",
-                  "text": "Name: ${{ secrets.NUS_ISS_DESIGN4_SLACK_NAME }} \n Matriculation numbers: ${{ secrets.NUS_ISS_DESIGN4_SLACK_MATRIC }} \n Email: ${{ secrets.NUS_ISS_DESIGN4_SLACK_EMAIL }} \n Repo: ${{ github.NUS_ISS_DESIGN4_repositoryUrl }} \n Image Name: ${{ secrets.NUS_ISS_DESIGN4_IMAGE_NAME }}  \n Image url: ${{ secrets.NUS_ISS_DESIGN4_IMAGE }}"
+                  "text": "Name: ${{ secrets.NUS_ISS_DESIGN4_SLACK_NAME }} \n Matriculation numbers: ${{ secrets.NUS_ISS_DESIGN4_SLACK_MATRIC }} \n Email: ${{ secrets.NUS_ISS_DESIGN4_SLACK_EMAIL }} \n Repo: ${{ github.repositoryUrl }} \n Image Name: ${{ secrets.NUS_ISS_DESIGN4_IMAGE_NAME }}  \n Image url: ${{ secrets.NUS_ISS_DESIGN4_IMAGE }}"
                 }
               }
             ]
